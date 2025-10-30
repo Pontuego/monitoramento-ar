@@ -81,7 +81,7 @@ export default function WeatherScreen() {
     <ThemedView style={styles.appBackground}>
       <View style={[styles.card, { backgroundColor: boxColor }]}>
         <ThemedText type="title" style={styles.cardTitle}>Clima Atual</ThemedText>
-        <ThemedText style={styles.info}>Cidade: {data.cidade}</ThemedText>
+        <ThemedText style={styles.info}>Região: {data.cidade}</ThemedText>
         <ThemedText style={styles.info}>Temperatura: {data.temperatura}</ThemedText>
         <ThemedText style={styles.info}>Condição: {data.condicao}</ThemedText>
 
